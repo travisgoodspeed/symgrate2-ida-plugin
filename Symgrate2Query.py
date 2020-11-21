@@ -38,7 +38,6 @@ def queryfns(conn, q):
 # Iterate over all the functions, querying from the database and printing them.
 fnhandled=0;
 
-#conn = httplib.HTTPConnection("localhost",80)
 conn = httplib.HTTPConnection("symgrate.com",80)
 
 qstr="";
